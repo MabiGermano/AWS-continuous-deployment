@@ -5,4 +5,5 @@ const app = express()
 app.use(express.json())
 app.use(routes)
 
-app.listen('8081')
+
+app.listen(process.env.port || 3333)
