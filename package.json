@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "node src/server.js",
-    "build": "webpack --mode=production",
     "start": "node src/server.js",
     "test": "jest"
   },
