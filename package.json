@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node src/server.js",
-    "start": "node src/server.js",
-    "test": "jest"
+    "start": "node src/server.js"
   },
   "repository": "https://github.com/MabiGermano/AWS-continuous-deployment.git",
   "author": "MabiGermano <mabi.germano.e@gmail.com>",
