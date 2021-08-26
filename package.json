@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node src/server.js",
     "build": "webpack --mode=production",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "test": "jest"
   },
   "repository": "https://github.com/MabiGermano/AWS-continuous-deployment.git",
   "author": "MabiGermano <mabi.germano.e@gmail.com>",
