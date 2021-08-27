@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node src/server.js",
+    "build": "webpack --mode=production",
     "start": "node src/server.js"
   },
   "repository": "https://github.com/MabiGermano/AWS-continuous-deployment.git",
