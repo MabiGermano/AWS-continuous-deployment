@@ -3,7 +3,7 @@ const routes = express.Router();
 
 routes.get('/', (req, res) => {
   
-  return res.json({message: "Welcome!"})
+  return res.json({message: "Welcome!", name: "Maria Beatriz"})
 })
 
 module.exports = routes;
